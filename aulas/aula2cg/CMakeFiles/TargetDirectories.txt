@@ -1,0 +1,3 @@
+/Users/jorgesilva/Desktop/aulas/aula2cg/CMakeFiles/class2.dir
+/Users/jorgesilva/Desktop/aulas/aula2cg/CMakeFiles/edit_cache.dir
+/Users/jorgesilva/Desktop/aulas/aula2cg/CMakeFiles/rebuild_cache.dir
