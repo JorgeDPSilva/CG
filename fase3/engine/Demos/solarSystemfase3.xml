@@ -1,0 +1,255 @@
+<world>
+    <window width="800" height="600" />
+    <camera>
+        <position x="0" y="70" z="150" />
+        <lookAt x="0" y="0" z="0" />
+        <up x="0" y="1" z="0" />
+        <projection fov="90" near="0.1" far="2000" />
+    </camera>
+    
+    <group>
+		<!--Sol-->
+		<group>
+			<transform>
+				<rotate time="40" x="0" y="1" z="0" />
+				<scale x="10" y="10" z="10" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+		</group>
+		<!--Mercúrio-->
+		<group>
+			<transform>
+				<translate time="241" align="true">
+					<point x="18.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="18.0" />
+                    <point x="-18.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-18.0" />
+				</translate>
+				<rotate time="58" x="0" y="1" z="0" />
+                <scale x="0.36" y="0.36" z="0.36" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+		</group>
+		<!--Vénus-->
+		<group>
+			<transform>
+				<translate time="225" align="true">
+                    <point x="24.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="24.0" />
+                    <point x="-24.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-24.0" />
+                </translate>
+                <rotate time="243" x="0" y="1" z="0" />
+                <scale x="0.88" y="0.88" z="0.88" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+		</group>
+		<!--Terra-->
+		<group>
+			<transform>
+			<translate time="365" align="true">
+                    <point x="29.4" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="29.4" />
+                    <point x="-29.4" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-29.4" />
+                </translate>
+                <rotate time="10" x="0" y="1" z="0" />
+                <scale x="0.93" y="0.93" z="0.93" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+			<!--Lua-->
+			<group>
+				<transform>
+					<translate time="100" align="true">
+                        <point x="1.4" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="1.4" />
+                        <point x="-1.4" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-1.4" />
+                    </translate>
+                    <scale x="0.247" y="0.247" z="0.247" />
+				</transform>
+				<models>
+					<model file="sphere_1_8_8.3d" />
+				</models>
+			</group>
+		</group>
+		<!--Marte-->
+		<group>
+			<transform>
+				<translate time="687" align="true">
+                    <point x="40.2" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="40.2" />
+                    <point x="-40.2" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-40.2" />
+                </translate>
+                <rotate time="1.03" x="0" y="1" z="0" />
+                <scale x="0.48" y="0.48" z="0.48" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+		</group>
+		<!--Jupiter-->
+		<group>
+			<transform>
+				<translate time="4333" align="true">
+                    <point x="72.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="72.0" />
+                    <point x="-72.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-72.0" />
+                </translate>
+                <rotate time="10" x="0" y="1" z="0" />
+                <scale x="2.73" y="2.73" z="2.73" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+			<!--Io-->
+			<group>
+				<transform>
+					<translate time="10.8" align="true">
+                        <point x="3.6" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="3.6" />
+                        <point x="-3.6" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-3.6" />
+                    </translate>
+                    <scale x="0.2505" y="0.2505" z="0.2505" />
+				</transform>
+				<models>
+					<model file="sphere_1_8_8.3d" />
+				</models>
+			</group>
+			<!--Europa-->
+			<group>
+				<transform>
+					<translate time="21" align="true">
+                        <point x="4.3" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="4.3" />
+                        <point x="-4.3" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-4.3" />
+                    </translate>
+                    <scale x="0.2133" y="0.2133" z="0.2133" />
+				</transform>
+				<models>
+					<model file="sphere_1_8_8.3d" />
+				</models>
+			</group>
+			<!--Ganymede-->
+			<group>
+				<transform>
+					<translate time="43.2" align="true">
+                        <point x="5.0" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="5.0" />
+                        <point x="-5.0" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-5.0" />
+                    </translate>
+                    <scale x="0.2731" y="0.2731" z="0.2731" />
+				</transform>
+				<models>
+					<model file="sphere_1_8_8.3d" />
+				</models>
+			</group>
+		</group>
+		<!--Saturno-->
+		<group>
+			<transform>
+				 <translate time="10759" align="true">
+                    <point x="132.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="132.0" />
+                    <point x="-132.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-132.0" />
+				</translate>
+				<rotate time="10" x="0" y="1" z="0" />
+                <scale x="2.20" y="2.20" z="2.20" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+			<!--Titan-->
+            <group>
+                <transform>
+                    <translate time="15.9" align="true">
+                        <point x="8.2" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="8.2" />
+                        <point x="-8.2" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-8.2" />
+                    </translate>
+                    <scale x="0.4045" y="0.4045" z="0.4045" />
+                </transform>
+                <models>
+                    <model file="sphere_1_8_8.3d" />
+                </models>
+            </group>
+		</group>
+		<!--Urano-->
+		<group>
+			<transform>
+				<translate time="30685" align="true">
+                    <point x="186.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="186.0" />
+                    <point x="-186.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-186.0" />
+                </translate>
+                <rotate time="10" x="0" y="1" z="0" />
+                <scale x="0.83" y="0.83" z="0.83" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+			<!--Oberon-->
+            <group>
+                <transform>
+                    <translate time="13.5" align="true">
+                        <point x="4.8" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="4.8" />
+                        <point x="-4.8" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-4.8" />
+                    </translate>
+                    <scale x="0.120" y="0.120" z="0.120" />
+                </transform>
+                <models>
+                    <model file="sphere_1_8_8.3d" />
+                </models>
+            </group>
+        </group>
+		<!--Neptuno-->
+		<group>
+			<transform>
+				<translate time="60190" align="true">
+                    <point x="248.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="248.0" />
+                    <point x="-248.0" y="0.0" z="0.0" />
+                    <point x="0.0" y="0.0" z="-248.0" />
+                </translate>
+                <rotate time="10" x="0" y="1" z="0" />
+                <scale x="0.76" y="0.76" z="0.76" />
+			</transform>
+			<models>
+				<model file="sphere_1_8_8.3d" />
+			</models>
+			<!--Triton-->
+			<group>
+				<transform>
+					<translate time="5.9" align="true">
+                        <point x="5.4" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="5.4" />
+                        <point x="-5.4" y="0.0" z="0.0" />
+                        <point x="0.0" y="0.0" z="-5.4" />
+                    </translate>
+                    <scale x="0.167" y="0.167" z="0.167" />
+				</transform>
+				<models>
+					<model file="sphere_1_8_8.3d" />
+				</models>
+			</group>
+		</group>
+	</group>
+</world>

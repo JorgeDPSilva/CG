@@ -1,0 +1,3 @@
+#apagar o cmake build
+
+rm -rf cmake-build-release

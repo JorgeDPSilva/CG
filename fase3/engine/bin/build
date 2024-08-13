@@ -1,0 +1,7 @@
+# dar setup do projeto(criar os ficheiros de build)
+
+set -e
+
+cmake -DCMAKE_BUILD_TYPE=Release -B cmake-build-release
+
+cmake --build cmake-build-release --target engine

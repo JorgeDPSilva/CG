@@ -1,0 +1,5 @@
+#chama o build e corre o codigo
+
+bin/build
+
+cmake-build-release/engine "$@"
